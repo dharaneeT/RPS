@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK-PAPER-SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">ROCK PAPER SCISSORS</h1>
+
+    <section class="moves">
+    <button class="rockbutton" onclick="
+        game('Rock');
+        "><img src="RPSIMAGES/Rock.png" class="moveimg" ></button>
+
+    <button class="paperbutton" onclick="
+        game('Paper');
+    
+    "><img src="RPSIMAGES/Paper.png" class="moveimg"></button>
+
+    <button class="scissorsbutton" onclick="
+        game('Scissors');
+    
+    "><img src="RPSIMAGES/Scissors.png" class="moveimg"></button>
+    </section>
+
+    <section class="resultsection">
+        <p class="yourmove"></p>
+        <p class="movecompare"></p>
+        <p class="result">Wins=0,Loss=0,Tie=0</p>
+    </section>
+
+    <button onclick="
+        scorereset();
+    " class="resetbutton">Reset</button>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
