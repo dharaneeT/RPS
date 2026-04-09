@@ -13,6 +13,11 @@ body{
 
 }
 
+button{
+    background: transparent;
+    border: transparent;
+}
+
 .compareimg{
     height: 50px;
 }
