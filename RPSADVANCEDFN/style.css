@@ -1,0 +1,36 @@
+body{
+    color:aliceblue;
+    background-color:rgb(25, 25,25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.moveimg{
+    height: 100px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+button{
+    background: transparent;
+    border: transparent;
+}
+
+.compareimg{
+    height: 50px;
+}
+
+.resetbutton,.Autoplay{
+    background:hsl(355, 94%, 51%) ;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.yourmove{
+    font-weight: bold;
+    font-size: large;
+}
