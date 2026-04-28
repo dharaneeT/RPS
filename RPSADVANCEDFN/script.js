@@ -22,6 +22,18 @@ document.querySelector('.scissorsbutton').addEventListener('click', () => {
     game('Scissors');
 })
 
+document.body.addEventListener('keydown', (event) => {
+    if (event.key === 'r') {
+        game('Rock');
+    }
+    else if (event.key === 'p') {
+        game('Paper');
+    }
+
+    else if (event.key === 's') {
+        game('Scissors');
+    }
+});
 
 function pcmove() {
     let num = Math.random();
